@@ -263,7 +263,7 @@ class DotsIndicator(
   private val internalPageChangeListener = object : ViewPager.OnPageChangeListener {
     override fun onPageSelected(position: Int) {
       if ((viewPager?.adapter?.count ?: 0) <= 0) return
-      internalPageSelected(position)
+      //internalPageSelected(position)
       lastPosition = position
     }
 
